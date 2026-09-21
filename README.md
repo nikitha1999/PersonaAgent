@@ -4,6 +4,6 @@ PersonaAgent is an AI-powered digital twin of Nikitha that represents her profes
 ## 🎥 Demo
 
 <video controls width="100%" playsinline>
-  <source src="./data/demo.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/nikitha1999/PersonaAgent/AgentLoop/data/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
