@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "persona-agent"
+version = "0.1.0"
+description = "AI-powered digital twin chat agent"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai",
+    "python-dotenv",
+    "pypdf",
+    "gradio",
+    "requests",
+]
+
+[project.scripts]
+persona-agent = "persona_agent.app:main"
+
+[tool.setuptools.packages.find]
+include = ["persona_agent*"]
